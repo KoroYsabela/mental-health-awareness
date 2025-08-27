@@ -15,9 +15,31 @@
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav>
-        <div>
-            Navigation
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#idex.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#common-issues">Common Issues</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            </div>
         </div>
     </nav>
 
@@ -31,14 +53,14 @@
     <!-- Main element to hold all key sections of the homepage -->
     <main>
         <!-- About -->
-        <section class="container">
+        <section id="about" class="container">
             <div class="row">
                 <div class="col-12">About</div>
             </div>
         </section>
 
         <!-- Common Issues + Tips -->
-        <section class="container">
+        <section id="common-issues" class="container">
             <div class="row">
                 <div class="col-12">Common Issues + Tips</div>
                 <div class="col-12 col-md-6 col-xl-3">Common Issues cards (tips - accordion)</div>
@@ -49,7 +71,7 @@
         </section>
 
         <!-- Resources -->
-        <section class="container">
+        <section id="resources" class="container">
             <div class="row">
                 <div class="col-12">Resource Links</div>
             </div>
@@ -63,7 +85,7 @@
         </section>
 
         <!-- Contact -->
-        <div class="container">
+        <section id="contact" class="container">
             <div class="row justify-content-center">
                 <div class="col-12">Contact us</div>
                 <!-- Contact info -->
@@ -71,7 +93,7 @@
                 <!-- Contact Form -->
                 <div class="col-12 col-md-6 col-xl-4">Contact form</div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Footer / Contact section -->
