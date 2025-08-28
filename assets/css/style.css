@@ -16,7 +16,7 @@ body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     /* padding-top: 56px; */ /* to ensure content is not hidden behind fixed navbar */
-    background-color: var(--secondary-accent-color);
+    background-color: white;
     font-size: 1rem;
 }
 
@@ -34,10 +34,14 @@ h2 {
     text-transform: uppercase;
 }
 
+
+/*
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+    */
+
 
 /* Navbar | Navigation */
 
@@ -63,13 +67,27 @@ h2 {
     padding: 0 5%;
 }
 
-/* Common Issues */
+/* Common Issues section */
+
+#common-issues {
+    background-color: var(--secondary-accent-color);
+}
 
 #common-issues .card-img-top {
     width: 100%;
     height: 16vw;
     object-fit: cover;
     object-position: center;
+}
+
+/* Resource section */
+#resources {
+    background-color: white;
+}
+
+#resources .card,
+#resources .accordion {
+    background-color: var(--secondary-accent-color);
 }
 
 /* */
