@@ -12,6 +12,7 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    padding-top: 56px; /* to ensure content is not hidden behind fixed navbar */
 }
 
 h1,
