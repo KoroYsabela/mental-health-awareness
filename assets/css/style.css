@@ -16,7 +16,8 @@ body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     /* padding-top: 56px; */ /* to ensure content is not hidden behind fixed navbar */
-    background-color: #e5ebef;
+    background-color: var(--secondary-accent-color);
+    font-size: 1rem;
 }
 
 h1,
@@ -33,13 +34,30 @@ h2 {
     text-transform: uppercase;
 }
 
+
+
 /* Navbar | Navigation */
+
 #navbar {
     background-color: var(--primary-accent-color);
 }
 
 #navbar .navbar-toggler {
     background-color: white;
+}
+
+/* Hero */
+
+#hero{
+    min-height: 60vh;
+    background-color: var(--secondary-accent-color);
+    background: url(../images/energy-healing-hands-therapeutic-method.webp) no-repeat center center/cover;
+    /* no-repeat center center/cover; */
+}
+
+#about {
+    background-color: var(--secondary-accent-color);
+    padding: 0 5%;
 }
 
 /* */
