@@ -3,17 +3,19 @@
 
 /* CSS variables */
 :root {
-    --primary-font: "Poppins", sans-serif;
-    --secondary-font: "Merriweather", serif;
-    --primary-color: #2f2f2f;
-    --secondary-color: #2a363c;
+    --primary-font: "Poppins", sans-serif;  
+    --secondary-font: "Merriweather", serif;    
+    --primary-color: #2f2f2f;           /* Jet*/
+    --secondary-color: #2a363c;         /* Gunmetal */
+    --primary-accent-color: #a6d1e6;    /* Uranian Blue*/
+    --secondary-accent-color: #e5ebef;  /* Alice Blue*/
 }
 
 /* Global styles */
 body {
     font-family: var(--primary-font);
     color: var(--secondary-color);
-    padding-top: 56px; /* to ensure content is not hidden behind fixed navbar */
+    /* padding-top: 56px; */ /* to ensure content is not hidden behind fixed navbar */
     background-color: #e5ebef;
 }
 
@@ -31,6 +33,15 @@ h2 {
     text-transform: uppercase;
 }
 
+/* Navbar | Navigation */
+#navbar {
+    background-color: var(--primary-accent-color);
+}
+
+#navbar .navbar-toggler {
+    background-color: white;
+}
+
 /* */
 #carouselExampleAutoplaying {
     min-height: 10em;
@@ -38,6 +49,7 @@ h2 {
 
 /* grid visualisation CSS for testing */
 
+/*
 .container,
 .row {
     border:2px solid black;
@@ -47,3 +59,4 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } 
+*/
