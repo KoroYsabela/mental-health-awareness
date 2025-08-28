@@ -12,7 +12,9 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    color: var(--secondary-color);
     padding-top: 56px; /* to ensure content is not hidden behind fixed navbar */
+    background-color: #e5ebef;
 }
 
 h1,
