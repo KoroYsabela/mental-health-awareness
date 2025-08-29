@@ -4,12 +4,7 @@
 
 ## Table Of Contents:
 1. [Description](#description)
-
-2. [Design and Planning](#design-and-planning)
-    * [Typography](#typography)
-    * [Colour Scheme](#colour-scheme)
-    * [Images and Icons](#images-and-icons)
-    
+2. [Design and Planning](#design-and-planning)    
 3. [Features](#features)
 4. [Technologies Used](#technologies-used)
 4. [AI](#ai)
@@ -20,8 +15,11 @@
 
 ## Description:
 ![Stronger Minds website in different viewports](assets/readme-images/am-i-responsive.png)
+Image from: [Am I Resoponsive](https://ui.dev/amiresponsive)
 
 **Stronger Minds** - is dedicated to raising mental health awareness, providing resources, support, and practical tips to help individuals thrive. Discover information on common issues, access helpful links, and find encouragement for your mental well-being.
+
+It is a user-friendly, supportive mental hub that aims to normalize emotional struggles, provide clear descriptions of common mental health challenges, while offering realisting and uplifting coping tips, whether through self-help or wanting to seek a mre structured approach.
 
 It is a single page website created using HTML, CSS and Bootsrap (Ver 5.3.7).
 
@@ -86,6 +84,10 @@ Other Tools / Technologies:
 The most significant use of AI was through the creation of [images](#images-and-icons), initial designing of the [colour palette.](#colour-scheme), and the text content used for the website. This was done in order to focus on building a website through what has been taught and to prevent too much time being spent on looking for content to use.
 
 Github Copilot (connected with VSCode) was also used to help with debugging or adding quick lines/fixes of code in HMTL or CSS, to help prevent spending a lot of time on small things.
+### Reflection:
+AI played a supportive role in developing **Stronger Minds**. It helped to identify where in the code could the issue have stemmed from and provided multiple solutions that could help to fix. Fortunately, most of my issues were only quick fixes and copilot was able to save me a lot of time. 
+
+However, some of the solutions did not lead to a fix and sometimes caused more issues, but through asking the reasons for the solution copilot tried to provide me with, I was able to understand concepts a bit better. This showed me that AI can't replace real understanding and it would be best to use it to help me better understand code concepts, rather than doing the work for me.
 
 ## Testing
 ### Google's Lighthouse Performance
