@@ -5,16 +5,16 @@
 ## Table Of Contents:
 1. [Description](#description)
 
-2. [Design & Planning](#design-&-planning)
-    * [Wireframes](#wireframes)
+2. [Design and Planning](#design-and-planning)
     * [Typography](#typography)
     * [Colour Scheme](#colour-scheme)
+    * [Images and Icons](#images-and-icons)
     
 3. [Features](#features)
     * [Navigation](#Navigation)
     * [Footer](#Footer)
     * [Home page](#Home-page)
-    * [Other features](#Other-features)
+    * [Other features](#other-features)
 
 4. [Technologies Used](#technologies-used)
 4. [AI](#ai)
@@ -24,12 +24,14 @@
 8. [Credits](#credits)
 
 ## Description:
-Stronger Minds -
+![Stronger Minds website in different viewports](assets/readme-images/am-i-responsive.png)
 
-## Design & Planning:
+**Stronger Minds** - is dedicated to raising mental health awareness, providing resources, support, and practical tips to help individuals thrive. Discover information on common issues, access helpful links, and find encouragement for your mental well-being.
+
+## Design and Planning:
 
 ### Typography:
-[Fontpair](https://www.fontpair.co/) was used to find different pairings of font to see what would look good together.
+[fontpair](https://www.fontpair.co/) was used to find different pairings of font to see what would look good together.
 
 Merriweather was chosen for readability in heading elements, and Poppins for a slight gentleness.
 
@@ -37,10 +39,15 @@ Merriweather was chosen for readability in heading elements, and Poppins for a s
 
 [Google fonts](https://fonts.google.com/) was then used to import the fonts into the CSS file.
 
-### Colour Scheme
-Screenshoot of the colour scheme for your project
-### Images & Icons
+### Colour Scheme:
+The general color scheme of the site is of light blue-ish/grey tones as shown in this screenshot:
 
+![Stronger Minds colour palette](assets/readme-images/stronger-minds-colour-palette.png)
+
+However, some additional colours may come from the images, as mentioned in the Images & Icons section below.
+
+### Images and Icons:
+Images, Icons and Logos used in the website were either generated usingChatGPT or taken from existing AI images on [Freepik](https://www.freepik.com/).
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
