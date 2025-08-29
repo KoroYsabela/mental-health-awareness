@@ -28,6 +28,8 @@
 
 **Stronger Minds** - is dedicated to raising mental health awareness, providing resources, support, and practical tips to help individuals thrive. Discover information on common issues, access helpful links, and find encouragement for your mental well-being.
 
+It is a single page website created using HTML, CSS and Bootsrap (Ver 5.3.7).
+
 ## Design and Planning:
 
 ### Typography:
@@ -50,10 +52,20 @@ However, some additional colours may come from the images, as mentioned in the I
 Images, Icons and Logos used in the website were either generated usingChatGPT or taken from existing AI images on [Freepik](https://www.freepik.com/).
 
 ## Features:
-Explain your features on the website,(navigation, pages, links, forms.....)
-### Navigation
-### Footer
-### Other features
+Current features:
+- Navbar (working same page links)
+- Hero / About section
+- Common Issues section + Tips
+- Resources section
+- Quotes section
+- Contact us section (Form layout only)
+- Footer (with links to social media pages - only homepage)
+
+Future features:
+- Navbar - collapse when pressing/clicking away (needs JS)
+- Contact us section - with success page
+- Resources - more links
+
 ## Technologies Used:
 The main technologies used to create this project are:
 - HTML
@@ -63,33 +75,62 @@ The main technologies used to create this project are:
 - Github
 
 Other Tools / Technologies:
-- Google Fonts
-- Fontawesome
-- imagecolorpicker
-- colors.co
-- fontpair.co
-- Freepik
-- tinyjpg
-- freeconvert
-- favicon.io
-- Adobe Express resizer
-- Markdown
+- [Google fonts](https://fonts.google.com/)
+- [Fontawesome](https://fontawesome.com/)
+- [imagecolorpicker](https://imagecolorpicker.com/)
+- [coolors.co](https://coolors.co/)
+- [fontpair](https://www.fontpair.co/)
+- [Freepik](https://www.freepik.com/)
+- [tinyjpg](https://tinyjpg.com/)
+- [freeconvert](https://www.freeconvert.com/)
+- [favicon.io](https://favicon.io/)
+- [Adobe Express resizer](https://www.adobe.com/express/feature/image/resize)
+- [Markdown](https://www.markdownguide.org/)
 
 
 ## AI
-AI usage within the project
+The most significant use of AI was through the creation of [images](#images-and-icons), additionally with initial designing of the [colour palette.](#colour-scheme)
+
+Github Copilot (connected with VSCode) was also used to help with debugging or adding quick lines/fixes of code in HMTL or CSS, to help prevent spending a lot of time on small things.
+
 ## Testing
 ### Google's Lighthouse Performance
-Screenshots of certain pages and scores (mobile and desktop)
+Tested in incognito mode:
+
+Mobile:
+
+![Google chrome lighthouse performance](assets/readme-images/chrome-lighthouse-mobile.png)
+
+Desktop:
+
+![Google chrome lighthouse performance](assets/readme-images/chrome-lighthouse-desktop.png)
+
 ### Browser Compatibility
 Check compatability with different browsers
 ### Responsiveness
 Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ### Code Validation
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+[HTML Validation](https://validator.w3.org/)
+
+![HTML validation of website](assets/readme-images/html-validation.png)
+
+[CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+![CSS validation of website](assets/readme-images/css-validation.png)
+
+### WAVE Acessibility
+[WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+
 
 ## Bugs
-List of bugs and how did you fix them
+Currently known: 
+- non-breaking bugs:
+    - Quotes carousel uses text based quotes, so it looks slightly glitchy/jittery when changing. Most specifically for quotes that are slightly longer. Easy fix would be to just used image based quotes of the same sizes.
+
+Throughout development:
+- Fixed:
+    - Margin and padding issues in different screen sizes, fixed along the way when creating site.
 
 ## Deployment
 
