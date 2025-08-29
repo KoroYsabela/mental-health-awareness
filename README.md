@@ -11,11 +11,6 @@
     * [Images and Icons](#images-and-icons)
     
 3. [Features](#features)
-    * [Navigation](#Navigation)
-    * [Footer](#Footer)
-    * [Home page](#Home-page)
-    * [Other features](#other-features)
-
 4. [Technologies Used](#technologies-used)
 4. [AI](#ai)
 5. [Testing](#testing)
@@ -42,7 +37,7 @@ Merriweather was chosen for readability in heading elements, and Poppins for a s
 [Google fonts](https://fonts.google.com/) was then used to import the fonts into the CSS file.
 
 ### Colour Scheme:
-The general color scheme of the site is of light blue-ish/grey tones as shown in this screenshot:
+ChatGPT was used to help come up with different types of themes for a mental health awareness website. The general color scheme of the decided is of light blue-ish/grey tones as shown in this screenshot:
 
 ![Stronger Minds colour palette](assets/readme-images/stronger-minds-colour-palette.png)
 
@@ -87,28 +82,25 @@ Other Tools / Technologies:
 - [Adobe Express resizer](https://www.adobe.com/express/feature/image/resize)
 - [Markdown](https://www.markdownguide.org/)
 
-
 ## AI
-The most significant use of AI was through the creation of [images](#images-and-icons), additionally with initial designing of the [colour palette.](#colour-scheme)
+The most significant use of AI was through the creation of [images](#images-and-icons), initial designing of the [colour palette.](#colour-scheme), and the text content used for the website. This was done in order to focus on building a website through what has been taught and to prevent too much time being spent on looking for content to use.
 
 Github Copilot (connected with VSCode) was also used to help with debugging or adding quick lines/fixes of code in HMTL or CSS, to help prevent spending a lot of time on small things.
 
 ## Testing
 ### Google's Lighthouse Performance
-Tested in incognito mode:
+The page was tested in incognito mode in Google Chrome.
 
 Mobile:
 
 ![Google chrome lighthouse performance](assets/readme-images/chrome-lighthouse-mobile.png)
 
+The performance in mobile is slightly lower than what I would've wanted, this is most likely dues to image sizes.
+
 Desktop:
 
 ![Google chrome lighthouse performance](assets/readme-images/chrome-lighthouse-desktop.png)
 
-### Browser Compatibility
-Check compatability with different browsers
-### Responsiveness
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ### Code Validation
 [HTML Validation](https://validator.w3.org/)
 
@@ -121,7 +113,10 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 ### WAVE Acessibility
 [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
+![WAVE evaluation of website](assets/readme-images/wave-evaluation.png)
 
+## Browser Compatability
+The has been run on Google Chrome, Microsoft Edge and Mozilla Firefox. All which seem to run well.
 
 ## Bugs
 Currently known: 
@@ -133,23 +128,24 @@ Throughout development:
     - Margin and padding issues in different screen sizes, fixed along the way when creating site.
 
 ## Deployment
-
-#### Creating Repository on GitHub
-- First make sure you are signed into [Github](https://github.com/) and go to the code institutes template, which can be found [here](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Then click on **use this template** and select **Create a new repository** from the drop-down. Enter the name for the repository and click **Create repository from template**.
-- Once the repository was created, I clicked the green **gitpod** button to create a workspace in gitpod so that I could write the code for the site.
-#### Deloying on Github
+Early deployment of the site was done for ease of development as the project progressed.
+#### Deloying on Github:
 The site was deployed to Github Pages using the following method:
 - Go to the Github repository.
 - Navigate to the 'settings' tab.
-- Using the 'select branch' dropdown menu, choose 'main'.
+- Got to Pages > Build and deployment
+- Make sure Source is set to 'Deploy from a branch"
+- In Branch, dropdown menu, choose 'main'.
 - Click 'save'.
+- Refresh the page.
+- Click the 'Visit site' which will open the deployed page in a new tab. (This may take a few minutes).
+### View the deployed site:
+View the deployed [site.](https://koroysabela.github.io/mental-health-awareness/index.html)
 
 ## Credits
-List of used resources for your website (text, images, snippets of code, projects....)
-  - Code & Text Content
-  
-  - Media
-  
-  - Acknowledgment
-    
+- [Code Institute](https://codeinstitute.net/) - Great teaching and content, experience on this first project was amazing! Looking forward to more. 
+
+### Resources used for help:
+- Other resouces used have been linked throughout this readme.
+- [Stackoverflow](https://stackoverflow.com/) - Amazing site for quick 
+- [ByteGrad](https://www.youtube.com/@ByteGrad) - Youtube channel which helped me find quick fixes to issues in Bootstrap.
