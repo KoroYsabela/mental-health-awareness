@@ -94,8 +94,7 @@ h2 {
     background-color: white;
 }
 
-#resources .card,
-#resources .accordion {
+#resources .card {
     background-color: var(--secondary-accent-color);
 }
 
@@ -181,6 +180,13 @@ h2 {
     #common-issues .card-footer {
         min-height: 285px;
     }
+
+    /* Resources section */
+
+    /* Make all resources cards the same height for consistency */
+    #resources .card-body {
+        min-height: 360px;
+    }
 }
 
 /* Extra-large devices (tablets, 1200px and up) */
@@ -193,6 +199,13 @@ h2 {
 
     #common-issues .card-footer {
         min-height: 235px;
+    }
+
+    /* Resources section */
+
+    /* Make all resources cards the same height for consistency */
+    #resources .card-body {
+        min-height: 338px;
     }
 }
 
@@ -208,4 +221,11 @@ h2 {
         min-height: 235px;
     }
         */
+
+    /* Resources section */
+
+    /* Make all resources cards the same height for consistency */
+    #resources .card-body {
+        min-height: 290px;
+    }
 }
