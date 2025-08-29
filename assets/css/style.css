@@ -83,7 +83,6 @@ h2 {
 
 #common-issues .card-img-top {
     width: 100%;
-    height: 16vw;
     object-fit: cover;
     object-position: center;
 }
@@ -160,6 +159,9 @@ h2 {
 @media screen and (min-width: 768px) {
 
     /* Make all common-issues cards the same height for consistency */
+    #common-issues .card-img-top {
+        height: 60vh;
+    }
     #common-issues .card-body {
         min-height: 330px;
     }
@@ -173,6 +175,10 @@ h2 {
 @media screen and (min-width: 992px) {
 
     /* Make all common-issues cards the same height for consistency */
+    #common-issues .card-img-top {
+        height: 40vh;
+    }
+
     #common-issues .card-body {
         min-height: 260px;
     }
