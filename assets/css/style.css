@@ -123,11 +123,11 @@ h2 {
         height: 60vh;
     }
     #common-issues .card-body {
-        min-height: 330px;
+        min-height: 340px;
     }
 
     #common-issues .card-footer {
-        min-height: 350px;
+        min-height: 360px;
     }
 }
 
@@ -141,11 +141,11 @@ h2 {
     }
 
     #common-issues .card-body {
-        min-height: 260px;
+        min-height: 270px;
     }
 
     #common-issues .card-footer {
-        min-height: 285px;
+        min-height: 286px;
     }
 
     /* Resources section */
@@ -162,11 +162,11 @@ h2 {
 
     /* Make all common-issues cards the same height for consistency */
     #common-issues .card-body {
-        min-height: 215px;
+        min-height: 218px;
     }
 
     #common-issues .card-footer {
-        min-height: 235px;
+        min-height: 240px;
     }
 
     /* Resources section */
