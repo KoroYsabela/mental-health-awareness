@@ -6,7 +6,6 @@
 1. [Description](#description)
 
 2. [Design & Planning](#design-&-planning)
-    * [User Stories](#user-stories)
     * [Wireframes](#wireframes)
     * [Typography](#typography)
     * [Colour Scheme](#colour-scheme)
@@ -29,14 +28,21 @@ Stronger Minds -
 
 ## Design & Planning:
 
-### User Stories
-Write your user stories in this section
 ### Wireframes
 Attach wireframes in this section
-### Typography
-Explain font you've used for your project
+### Typography:
+[Fontpair](https://www.fontpair.co/) was used to find different pairings of font to see what would look good together.
+
+Merriweather was chosen for readability in heading elements, and Poppins for a slight gentleness.
+
+![Merriweather & Poppins Fonts](assets/readme-images/typography.png)
+
+[Google fonts](https://fonts.google.com/) was then used to import the fonts into the CSS file.
+
 ### Colour Scheme
 Screenshoot of the colour scheme for your project
+### Images & Icons
+
 
 ## Features:
 Explain your features on the website,(navigation, pages, links, forms.....)
