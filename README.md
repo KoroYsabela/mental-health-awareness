@@ -147,5 +147,5 @@ View the deployed [site.](https://koroysabela.github.io/mental-health-awareness/
 
 ### Resources used for help:
 - Other resouces used have been linked throughout this readme.
-- [Stackoverflow](https://stackoverflow.com/) - Amazing site for quick 
+- [Stackoverflow](https://stackoverflow.com/)
 - [ByteGrad](https://www.youtube.com/@ByteGrad) - Youtube channel which helped me find quick fixes to issues in Bootstrap.
