@@ -52,7 +52,7 @@ h2 {
 #hero{
     min-height: 60vh;
     background-color: var(--secondary-accent-color);
-    background: url(../images/energy-healing-hands-therapeutic-method_resized.webp) no-repeat center center/cover;
+    background: url(../images/hero-img.webp) no-repeat center center/cover;
     /* no-repeat center center/cover; */
 }
 
