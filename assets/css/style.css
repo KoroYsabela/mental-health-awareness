@@ -106,11 +106,25 @@ h2 {
     color: var(--primary-color);
 }
 
+/*
 #quotes-carousel-autoplay {
-    min-height: 10em;
+    min-height: 12rem;
+}
+*/
+
+#quotes .carousel {
+    min-height: 13rem;
 }
 
+
+/*
+#quotes .carousel-item {
+    padding: 2rem;
+}
+*/
+
 /* Contact section */
+
 #contact {
     background-color: var(--secondary-accent-color);
 }
