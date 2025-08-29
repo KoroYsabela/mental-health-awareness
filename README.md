@@ -28,8 +28,6 @@ Stronger Minds -
 
 ## Design & Planning:
 
-### Wireframes
-Attach wireframes in this section
 ### Typography:
 [Fontpair](https://www.fontpair.co/) was used to find different pairings of font to see what would look good together.
 
