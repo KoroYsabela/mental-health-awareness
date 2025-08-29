@@ -49,12 +49,28 @@ Explain your features on the website,(navigation, pages, links, forms.....)
 ### Navigation
 ### Footer
 ### Other features
-## Technologies Used
-List of technologies used for your project...
-HTML
-CSS
-Bootstrap
-Github
+## Technologies Used:
+The main technologies used to create this project are:
+- HTML
+- CSS
+- Bootstrap - Ver 5.3.7
+- Git 
+- Github
+
+Other Tools / Technologies:
+- Google Fonts
+- Fontawesome
+- imagecolorpicker
+- colors.co
+- fontpair.co
+- Freepik
+- tinyjpg
+- freeconvert
+- favicon.io
+- Adobe Express resizer
+- Markdown
+
+
 ## AI
 AI usage within the project
 ## Testing
