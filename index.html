@@ -72,7 +72,7 @@
         -->
 
         <!-- Common Issues -->
-        <section id="common-issues" class="container section">
+        <section id="common-issues" class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="pb-3 fw-bold mt-4">Common Issues</h1>
@@ -213,7 +213,7 @@
         </section>
 
         <!-- Resources section -->
-        <section id="resources" class="container section">
+        <section id="resources" class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="pb-3 fw-bold mt-4">Resource Links</h1>
@@ -357,29 +357,35 @@
         <section id="quotes" class="container section">
             <div class="row">
                 <div class="col-12">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div id="quotes-carousel-autoplay" class="carousel slide d-flex align-items-center text-center" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="..." class="d-block w-100" alt="quote #1 image">
+                                <h3>“You are not your thoughts. You are the observer of your thoughts.”</h3>
+                                <p>- Amit Ray</p>
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="..." class="d-block w-100" alt="quote #2 image">
+                                <h3>“You are deserving of love and compassion, especially from yourself.”</h3>   
+                                <p>- Unknown</p>
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="..." class="d-block w-100" alt="quote #3 image">
+                                <h3>“There is hope, even when your brain tells you there isn't.”</h3>
+                                <p>- John Green</p>
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="..." class="d-block w-100" alt="quote #4 image">
+                                <h3>“You are capable of creating a life filled with purpose and meaning, despite your mental health challenges.”</h3>
+                                <p>- Unknown</p>
                             </div>
                             <div class="carousel-item" data-bs-interval="5000">
-                                <img src="..." class="d-block w-100" alt="quote #5 image">
+                                
+                                <h3>“Be kind, for everyone you meet is fighting a battle you know nothing about.”</h3>
+                                <p>- Ian Maclaren</p>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#quotes-carousel-autoplay" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#quotes-carousel-autoplay" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -389,12 +395,12 @@
         </section>        
 
         <!-- Contact section -->
-        <section id="contact" class="container section">
+        <section id="contact" class="container">
             <div class="row justify-content-center">
-                <div class="col-12">
-                    <h2>Contact us</h2>
+                <div class="col-12 text-center">
+                    <h1 class="pb-3 fw-bold mt-4">Contact us</h1>
                 </div>
-                <div class="col-12 col-lg-6">                    
+                <div class="col-12 col-xl-6">                    
                     <p>We know it can be hard to ask for support — 
                         but you are not alone. Whether you have a question, 
                         need guidance, or simply want someone to talk to, 
@@ -406,20 +412,21 @@
                         of harm. Your privacy and safety are our priority.
                     </p>
                 </div>
+
                 <!-- Contact Form -->
-                <div class="col-12 col-lg-6">
-                    <form class="row g-3">
+                <div class="col-12 col-xl-6">
+                    <form id="contact-form" class="row g-3 mb-3" method="GET">
                         <div class="col-lg-6">
                             <label for="full-name" class="form-label">Full name</label>
-                            <input type="text" class="form-control" id="full-name">
+                            <input type="text" class="form-control" id="full-name" required>
                         </div>                                            
                         <div class="col-lg-6">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" class="form-control" id="email" required>
                         </div>
                         <div class="col-12">
                             <label for="inputMessage" class="form-label">Message</label>
-                            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+                            <textarea class="form-control" id="inputMessage" rows="3" required></textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary custom-button">Send</button>
@@ -433,7 +440,7 @@
 
     <!-- Footer -->
     <!-- mt-auto added to push footer to the bottom -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mt-auto">
+    <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mt-auto">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 d-flex align-items-center">
@@ -446,15 +453,15 @@
                     -->
                     <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2025 Stronger Minds - Mental Health Awareness</span>
                 </div>
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <ul id="social-networks" class="nav col-md-4 justify-content-center list-unstyled d-flex text-md">
                     <li class="ms-3">
-                        <a class="text-body-secondary" href="#" aria-label="Instagram">Instagram (add icon)</a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
                     </li>
                     <li class="ms-3">
-                        <a class="text-body-secondary" href="#" aria-label="Facebook">Facebook (add icon)</a>
+                        <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Visit our X Page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
                     </li>
                     <li class="ms-3">
-                        <a class="text-body-secondary" href="#" aria-label="X">X (add icon)</a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>

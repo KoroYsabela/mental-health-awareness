@@ -34,14 +34,22 @@ h2 {
     text-transform: uppercase;
 }
 
-
-/*
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-    */
 
+/* Buttons */
+
+.custom-button {
+
+}
+
+.custom-button-outline {
+    border: 2px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);    
+}
 
 /* Navbar | Navigation */
 
@@ -81,6 +89,7 @@ h2 {
 }
 
 /* Resource section */
+
 #resources {
     background-color: white;
 }
@@ -90,10 +99,33 @@ h2 {
     background-color: var(--secondary-accent-color);
 }
 
-/* */
-#carouselExampleAutoplaying {
+/* Quotes section*/
+
+#quotes {
+    background-color: var(--primary-accent-color);
+    color: var(--primary-color);
+}
+
+#quotes-carousel-autoplay {
     min-height: 10em;
 }
+
+/* Contact section */
+#contact {
+    background-color: var(--secondary-accent-color);
+}
+
+/* Footer section */
+#footer {
+    background-color: var(--primary-accent-color);
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: var(--primary-color)
+}
+
 
 /* grid visualisation CSS for testing */
 
